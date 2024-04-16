@@ -22,12 +22,4 @@ public class Course {
 
     @Column(name = "course_name")
     private String courseName;
-
-//    @ManyToMany(mappedBy = "courses", fetch = FetchType.LAZY)
-//    private Set<Student> students;
-
-
-//    @ManyToMany(fetch = FetchType.LAZY)
-//    @JoinTable(name = "student_course", joinColumns = @JoinColumn(name = "student_id"), inverseJoinColumns = @JoinColumn(name = "course_id"))
-//    private Set<Student> students;
 }
